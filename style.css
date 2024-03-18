@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Gantari:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gantari';
+    color: #fff;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #1c1c1c;
+}
+
+#nav {
+    height: 60px;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#nav h3 {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#main h1 {
+    font-size: 150px;
+    text-transform: uppercase;
+    line-height: 127px;
+    font-weight: 400;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    z-index: 9;
+}
+
+#main h1:nth-child(2) {
+    margin-top: 180px;
+}
+
+#main h1:nth-child(3) {
+    text-align: center;
+}
+
+#main h1:nth-child(4) {
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 10.5%;
+    left: 40%;
+}
+
+#img1 {
+    rotate: 20deg;
+}
+
+#img2 {
+    rotate: 10deg;
+}
+
+.bottom {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bottom h3:nth-child(2) {
+    text-align: center;
+}
